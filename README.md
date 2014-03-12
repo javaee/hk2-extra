@@ -1,4 +1,4 @@
-hk2
+hk2-extra
 ===
 
-A light-weight and dynamic dependency injection framework
+HK2's side projects and experiments.
