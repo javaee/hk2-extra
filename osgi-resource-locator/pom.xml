@@ -3,7 +3,7 @@
 
     DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 
-    Copyright (c) 2010-2014 Oracle and/or its affiliates. All rights reserved.
+    Copyright (c) 2010-2018 Oracle and/or its affiliates. All rights reserved.
 
     The contents of this file are subject to the terms of either the GNU
     General Public License Version 2 only ("GPL") or the Common Development
@@ -170,8 +170,6 @@
 				<artifactId>maven-bundle-plugin</artifactId>
 				<configuration>
 					<instructions>
-						<!-- Read all the configuration from osgi.bundle file, if it exists. 
-							See Felix-699 to find out why we use ${basedir}. -->
 						<_include>osgi.bundle</_include>
 					</instructions>
 
@@ -191,7 +189,6 @@
 
 	<dependencies>
 		<dependency>
-			<!-- We need OSGi API v4.2, as we depend on BundleReference API -->
 			<groupId>org.osgi</groupId>
 			<artifactId>osgi.core</artifactId>
 			<version>6.0.0</version>
