@@ -57,12 +57,12 @@
 	<licenses>
 		<license>
 			<name>CDDL 1.1</name>
-			<url>http://glassfish.java.net/public/CDDL+GPL_1_1.html</url>
+			<url>https://javaee.github.io/LICENSE</url>
 			<distribution>repo</distribution>
 		</license>
 		<license>
 			<name>GPL2 w/ CPE</name>
-			<url>http://glassfish.java.net/public/CDDL+GPL_1_1.html</url>
+			<url>https://javaee.github.io/LICENSE</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
@@ -76,7 +76,7 @@
 		<developer>
 			<id>ss141213</id>
 			<name>Sahoo</name>
-			<organization>Sun Microsystems, Inc.</organization>
+			<organization>Oracle Corporation</organization>
 			<roles>
 				<role>developer</role>
 			</roles>
