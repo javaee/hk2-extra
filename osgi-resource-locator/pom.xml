@@ -44,14 +44,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>net.java</groupId>
-		<artifactId>jvnet-parent</artifactId>
-		<version>5</version>
-		<relativePath />
+		<groupId>org.glassfish.hk2</groupId>	
+	    <artifactId>build-aggregator</artifactId>
+	    <version>1.0.2-SNAPSHOT</version>
 	</parent>
 	<artifactId>osgi-resource-locator</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
-
 	<name>OSGi resource locator</name>
 	<description>Used by various API providers that rely on META-INF/services mechanism to locate providers.</description>
 	<licenses>
