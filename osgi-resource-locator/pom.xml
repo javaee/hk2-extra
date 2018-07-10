@@ -55,14 +55,10 @@
     <description>Used by various API providers that rely on META-INF/services mechanism to locate providers.</description>
     <licenses>
         <license>
-            <name>CDDL 1.1</name>
-            <url>https://javaee.github.io/LICENSE</url>
+            <name>CDDL + GPLv2 with classpath exception</name>
+            <url>https://oss.oracle.com/licenses/CDDL+GPL-1.1</url>
             <distribution>repo</distribution>
-        </license>
-        <license>
-            <name>GPL2 w/ CPE</name>
-            <url>https://javaee.github.io/LICENSE</url>
-            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
         </license>
     </licenses>
 
