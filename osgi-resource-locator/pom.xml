@@ -49,6 +49,7 @@
         <version>5</version>
         <relativePath />
     </parent>
+	<groupId>org.glassfish.hk2</groupId>
     <artifactId>osgi-resource-locator</artifactId>
     <version>1.0.2-SNAPSHOT</version>
     <name>OSGi resource locator</name>
