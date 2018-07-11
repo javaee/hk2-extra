@@ -40,8 +40,7 @@
     holder.
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>net.java</groupId>
@@ -51,7 +50,7 @@
     </parent>
     <groupId>org.glassfish.hk2</groupId>
     <artifactId>osgi-resource-locator</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <name>OSGi resource locator</name>
     <description>Used by various API providers that rely on META-INF/services mechanism to locate providers.</description>
     <licenses>
@@ -67,7 +66,8 @@
         <url>https://github.com/javaee/hk2-extra</url>
         <connection>scm:git:https://github.com/javaee/hk2-extra.git</connection>
         <developerConnection>scm:git:git@github.com:javaee/hk2-extra.git</developerConnection>
-    </scm>
+      <tag>osgi-resource-locator-1.0.2</tag>
+  </scm>
     <developers>
         <developer>
             <id>ss141213</id>
